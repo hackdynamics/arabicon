@@ -1,0 +1,9 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+includedir=@includedir@
+arabiconlibdir=@arabiconlibdir@
+
+Name: ARABICON plugins
+Description: Header and path for ARABICON plugins
+Version: @VERSION@
+Cflags: -I${includedir}

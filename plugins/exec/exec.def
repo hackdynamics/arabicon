@@ -1,0 +1,3 @@
+EXPORTS 
+arabicon_plugin_init 
+arabicon_plugin_deinit 
