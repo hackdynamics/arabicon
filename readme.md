@@ -23,9 +23,9 @@ Build on Linux:<br>
 # ninja -C build install<br>
 <br>
 <sub> 
-X-Chat ("xchat") Copyright (c) 1998-2010 By Peter Zelezny.  
-HexChat ("hexchat") Copyright (c) 2009-2014 By Berke Viktor.
-RUBIRC ("rubirc") Copyright (c) 2023-2026 By  Alexey Kuleshov.
+X-Chat ("xchat") Copyright (c) 1998-2010 By Peter Zelezny. <br>
+HexChat ("hexchat") Copyright (c) 2009-2014 By Berke Viktor.<br><br>
+RUBIRC ("rubirc") Copyright (c) 2023-2026 By  Alexey Kuleshov.<br>
 ARABICON ("arabicon") Copyright (c) 2006 By Alexey Kuleshov. <br>
 </sub>
 
