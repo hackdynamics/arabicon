@@ -834,7 +834,7 @@ load_default_config(void)
 	prefs.hex_gui_win_width = 640;
 	prefs.hex_irc_ban_type = 1;
 	prefs.hex_irc_join_delay = 5;
-	prefs.hex_net_ping_timeout = 60;
+	prefs.hex_net_ping_timeout = 0;
 	prefs.hex_net_reconnect_delay = 10;
 	prefs.hex_notify_timeout = 15;
 	prefs.hex_text_max_indent = 256;
@@ -842,7 +842,7 @@ load_default_config(void)
 	prefs.hex_url_grabber_limit = 100; 		/* 0 means unlimited */
 
 	/* STRINGS */
-	strcpy (prefs.hex_away_reason, _("I'm busy"));
+	strcpy (prefs.hex_away_reason, _("أنا مشغول"));
 	strcpy (prefs.hex_completion_suffix, ",");
 #ifdef WIN32
 	if (portable_mode () || SHGetKnownFolderPath (&FOLDERID_Downloads, 0, NULL, &roaming_path_wide) != S_OK)
@@ -879,7 +879,7 @@ load_default_config(void)
 	safe_strcpy (prefs.hex_irc_nick3, username, sizeof(prefs.hex_irc_nick3));
 	g_strlcat (prefs.hex_irc_nick3, "__", sizeof(prefs.hex_irc_nick3));
 	strcpy (prefs.hex_irc_no_hilight, "NickServ,ChanServ,InfoServ,N,Q");
-	safe_strcpy (prefs.hex_irc_part_reason, _("Leaving"), sizeof(prefs.hex_irc_part_reason));
+	safe_strcpy (prefs.hex_irc_part_reason, _("مع السلامة"), sizeof(prefs.hex_irc_part_reason));
 	safe_strcpy (prefs.hex_irc_quit_reason, prefs.hex_irc_part_reason, sizeof(prefs.hex_irc_quit_reason));
 	safe_strcpy (prefs.hex_irc_real_name, realname, sizeof(prefs.hex_irc_real_name));
 	safe_strcpy (prefs.hex_irc_user_name, username, sizeof(prefs.hex_irc_user_name));

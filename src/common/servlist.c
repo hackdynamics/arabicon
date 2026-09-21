@@ -51,282 +51,73 @@ struct defaultserver
 static const struct defaultserver def[] =
 {
 
-	{"AfterNET", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.afternet.org"},
 
-	{"Aitvaras",	0},
-#ifdef USE_OPENSSL
-	{0,			"irc.data.lt/+6668"},
-	{0,			"irc.omicron.lt/+6668"},
-	{0,			"irc.vub.lt/+6668"},
-#endif
-	{0,			"irc.data.lt"},
-	{0,			"irc.omicron.lt"},
-	{0,			"irc.vub.lt"},
-
-	{"Anthrochat", 0, 0, 0, 0, 0, TRUE},
-	{0,			"irc.anthrochat.net"},
-
-	{"ARCNet",	0},
-	{0,			"arcnet-irc.org"},
-
-	{"AustNet",	0},
-	{0,			"irc.austnet.org"},
-
-	{"AzzurraNet",	0},
-	{0,			"irc.azzurra.org"},
-
-	{"Canternet", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.canternet.org"},
-
-	{"Chat4all", 0, 0, 0, 0, 0, TRUE},
-	{0,			"irc.chat4all.org"},
-
-	{"ChatJunkies",	0},
-	{0,			"irc.chatjunkies.org"},
-
-	{"chatpat", 0, 0, "CP1251", LOGIN_CUSTOM, "MSG NS IDENTIFY %p"},
-	{0,			"irc.unibg.net"},
-	{0,			"irc.chatpat.bg"},
-
-	{"ChatSpike", 0, 0, 0, LOGIN_SASL},
-	{0,			"irc.chatspike.net"},
-
-	{"DaIRC", 0},
-	{0,			"irc.dairc.net"},
+	{"الجزائر", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
-	{"DALnet", 0, 0, 0, LOGIN_NICKSERV},
-	/* Self signed */
-	{0,			"us.dal.net"},
-
-	{"DarkMyst", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.darkmyst.org"},
-
-#ifdef USE_OPENSSL
-	{"darkscience", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.darkscience.net"},
-	{0,			"irc.drk.sc"},
-	{0,			"irc.darkscience.ws"},
-#endif
-
-	{"Dark-Tou-Net",	0},
-	{0,			"irc.d-t-net.de"},
+	{"البحرين", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
-	{"DigitalIRC", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.digitalirc.org"},
+	{"جيبوتي", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
-#ifdef USE_OPENSSL
-	{"DosersNET", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.dosers.net/+6697"},
-#endif
-
-	{"EFnet",	0},
-	{0,			"irc.choopa.net"},
-	{0,			"efnet.port80.se"},
-	{0,			"irc.underworld.no"},
-	{0,			"efnet.deic.eu"},
-
-	{"EnterTheGame",	0},
-	{0,			"irc.enterthegame.com"},
-
-	{"EntropyNet",	0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.entropynet.net"},
-
-	{"EsperNet", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.esper.net"},
-
-	{"EUIrc",	0},
-	{0,			"irc.euirc.net"},
-
-	{"EuropNet", 0},
-	/* Self signed */
-	{0,			"irc.europnet.org"},
-
-	{"FDFNet",	0},
-	/* Self signed */
-	{0,			"irc.fdfnet.net"},
-
-	{"GameSurge", 0},
-	{0,			"irc.gamesurge.net"},
-
-	{"GeekShed", 0, 0, 0, 0, 0, TRUE},
-	{0,			"irc.geekshed.net"},
-
-	{"German-Elite", 0, 0, "CP1252"},
-	{0,			"irc.german-elite.net"},
-
-	{"GIMPNet",		0},
-	/* Invalid hostname in cert */
-	{0,			"irc.gimp.org"},
-	{0,			"irc.gnome.org"},
-
-	{"GlobalGamers", 0},
-#ifdef USE_OPENSSL
-	{0,			"irc.globalgamers.net/+6660"},
-#endif
-	{0,			"irc.globalgamers.net"},
-
-#ifdef USE_OPENSSL
-	{"hackint", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.hackint.org"},
-	{0,			"irc.eu.hackint.org"},
-#endif
-
-	{"Hashmark",	0},
-	{0,			"irc.hashmark.net"},
-
-	{"ICQ-Chat", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.icq-chat.com"},
-
-	{"Interlinked", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.interlinked.me"},
-
-	{"Irc-Nerds", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.irc-nerds.net"},
+	{"مصر", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
-	{"IRC4Fun", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,				"irc.irc4fun.net"},
-
-	{"IRCNet",		0},
-	{0,				"open.ircnet.net"},
-
-	{"IRCtoo",	0},
-	{0,			"irc.irctoo.net"},
-
-	{"Keyboard-Failure", 0},
-	/* SSL is self-signed */
-	{0,			"irc.kbfail.net"},
-
-	{"Libera.Chat", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.libera.chat"},
+	{"الأردن", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
-#ifdef USE_OPENSSL
-	{"LibertaCasa", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.liberta.casa"},
-#endif
-
-	{"LibraIRC", 0},
-	/* Self signed */
-	{0,			"irc.librairc.net"},
-
-#ifdef USE_OPENSSL
-	{"LinkNet",	0},
-	{0,			"irc.link-net.org/+7000"},
-#endif
-
-	{"MindForge", 0, 0, 0, LOGIN_SASL},
-	{0,			"irc.mindforge.org"},
-
-	{"MIXXnet",		0},
-	{0,			"irc.mixxnet.net"},
-
-	{"Oceanius", 0, 0, 0, LOGIN_SASL},
-	/* Self signed */
-	{0,			"irc.oceanius.com"},
-
-	{"OFTC", 0, 0, 0, 0, 0, TRUE},
-	{0,			"irc.oftc.net"},
-
-	{"OtherNet",	0},
-	{0,			"irc.othernet.org"},
-
-	{"OzOrg",	0},
-	{0,			"irc.oz.org"},
-
-	{"PIK", 0},
-	{0,			"irc.krstarica.com"},
-
-	{"pirc.pl",	0, 0, 0, 0, 0, TRUE},
-	{0,			"irc.pirc.pl"},
-
-	{"PTNet",	0},
-	{0,			"irc.ptnet.org"},
-	{0,			"uevora.ptnet.org"},
-	{0,			"claranet.ptnet.org"},
-	{0,			"sonaquela.ptnet.org"},
-	{0,			"uc.ptnet.org"},
-	{0,			"ipg.ptnet.org"},
-
-	{"QuakeNet", 0, 0, 0, LOGIN_CHALLENGEAUTH},
-	{0,			"irc.quakenet.org"},
-
-	{"Rizon", 0, 0, 0, 0, 0, TRUE},
-	{0,			"irc.rizon.net"},
-
-	{"RusNet", 0, 0, "KOI8-R (Cyrillic)"},
-	/* Self signed */
-	{0,			"irc.tomsk.net"},
-	{0,			"irc.run.net"},
-	{0,			"irc.ru"},
-	{0,			"irc.lucky.net"},
-
-	{"Serenity-IRC",	0},
-	{0,			"irc.serenity-irc.net"},
-
-	{"SimosNap", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,            "irc.simosnap.com"},
-
-	{"SlashNET",	0},
-	/* Self signed */
-	{0,			"irc.slashnet.org"},
-
-	{"Snoonet", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.snoonet.org"},
-
-	{"Sohbet.Net", 0, 0, "CP1254"},
-	{0,			"irc.sohbet.net"},
-
-	{"SorceryNet", 0, 0, 0, LOGIN_SASL},
-	/* Self signed */
-	{0,			"irc.sorcery.net"},
+	{"العراق", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
-	{"SpotChat", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.spotchat.org"},
-
-	{"Station51", 0},
-	/* Self signed */
-	{0,			"irc.station51.net"},
-
-	{"StormBit", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.stormbit.net"},
-
-	{"SwiftIRC", 0},
-	/* Expired cert */
-	{0,			"irc.swiftirc.net"},
-
-	{"synIRC", 0},
-	/* Self signed */
-	{0, "irc.synirc.net"},
-
-	{"Techtronix",	0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.techtronix.net"},
+	{"اليمن", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
-	{"TechNet", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.technet.chat"},
+	{"قطر", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
-	{"tilde.chat", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.tilde.chat"},
-
-	{"TURLINet", 0, 0, 0, 0, 0, TRUE},
-	/* all servers use UTF-8 and valid certs */
-	{0,			"irc.servx.org"},
-	{0,			"i.valware.uk"},
+	{"جزر القمر ", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
+	{"الكويت", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
 	
-#ifdef USE_OPENSSL
-	{"TripSit", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.tripsit.me"},
-	{0,			"newirc.tripsit.me"},
-	{0,			"coconut.tripsit.me"},
-	{0,			"innsbruck.tripsit.me"},
-#endif	
-
-	{"UnderNet", 0, 0, 0, LOGIN_CUSTOM, "MSG x@channels.undernet.org login %u %p"},
-	{0,			"irc.undernet.org"},
-
-	{"Xertion", 0, 0, 0, LOGIN_SASL, 0, TRUE},
-	{0,			"irc.xertion.org"},
-
+	{"لبنان", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"ليبيا", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"الموريتانيا", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"المغرب", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"الإمارات العربية المتحدة", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"عمان", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"فلسطين", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"السعودية", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"سوريا", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"الصومال", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"السودان", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
+	{"تونس", 0, 0, 0, 0, 0, TRUE},
+	{0,			"1.1.1.1"},
+	
 	{0,0}
 };
 
